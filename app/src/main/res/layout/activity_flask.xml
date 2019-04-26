@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:id="@+id/view_flask_activity"
+    android:orientation="vertical"
+    tools:context=".FlaskActivity">
+
+    <TextView
+        android:text="Connection Type"
+        android:visibility="gone"
+        android:id="@+id/tvIsConnected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:hint="disini coba tes terima text dari server"
+        android:visibility="gone"
+        android:id="@+id/responseFlaskTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/flaskBtnFlask"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listen to Doorbell"/>
+    <Button
+        android:id="@+id/flaskBtnStop"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Listening"/>
+    <ImageView
+        android:id="@+id/faceIV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/audioBtnFlask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Talk to Guest"/>
+    <Button
+        android:id="@+id/unlockDoorBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="unlock door"/>
+    <Button
+        android:id="@+id/addNewFaceBtn"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add new face data"/>
+
+</LinearLayout>

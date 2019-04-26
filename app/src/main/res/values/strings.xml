@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DRPi</string>
+    <string-array name="user_data">
+        <item>House Member</item>
+        <item>Guest</item>
+    </string-array>
+</resources>
